@@ -1,0 +1,42 @@
+# install with conda env create -f env-disease-detection.yml
+name: 'disease-detection'
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+  - districtdatalabs
+  - plotly
+  - defaults
+dependencies:
+  - python==3.12
+  - ipykernel
+  - matplotlib
+  - pandas
+  - nb_conda_kernels
+  - requests
+  - ipywidgets
+  - plotly
+  - jupyter-dash
+  - scikit-learn==1.7.1 
+  - datasets
+  - yellowbrick
+  - protobuf
+  - torchvision
+  - torchaudio
+  - pytorch
+  - autograd
+  - wordcloud
+  - seaborn
+  - sentence-transformers  
+  - wikipedia
+  - spacy
+  - nltk
+  - umap-learn
+  - panel 
+  - pip
+  - pip:
+      - torch-summary
+      - otter-grader
+      - mglearn
+      - kaleido
+      - pyppeteer
